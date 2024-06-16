@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .forms import ApplicationForm
+from .models import Form
 
 def index(request):
     if request.method == "POST":
